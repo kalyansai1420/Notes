@@ -1,4 +1,5 @@
 ### database indexing
+
 #### few things we have to undrstand first , before we see how indexing works
 
 - how table data(rows) are actually stored ?
@@ -24,8 +25,10 @@
   - indexing
     - clustered indexing (done for primary key , if not it creates internally ) 
       - order of rows inside the data pages, match with the order of index
+
     - non-clustered indexing ( done for composite key)
       - 
+
   - what is indexing ?
     - it is used to increased the performance of the database query. So that data can be fetched faster.
     - without indexing, DBMS has to iterate each and every table row to find the requested data.
@@ -37,5 +40,6 @@
     - All leaf are at the same level
     - M order B tree means, each node can have at most M childrens.
     - And M-1 Keys per node.
+
 - understanding the data structure used for indexing and how it works ?
   - 
